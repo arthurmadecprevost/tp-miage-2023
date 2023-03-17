@@ -14,5 +14,4 @@ public interface UpdateTodoItem {
 	 * @param item
 	 */
 	void storeNewTodoItem(TodoItem item);
-
 }

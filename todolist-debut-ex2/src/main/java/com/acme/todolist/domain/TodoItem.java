@@ -12,11 +12,8 @@ import java.time.temporal.ChronoUnit;
 public class TodoItem {
 
 	private static final String LATE = "[LATE!] ";
-
 	private String id;
-
 	private Instant time;
-
 	private String content;
 
 	public String getId() {
@@ -86,5 +83,4 @@ public class TodoItem {
 			return false;
 		return true;
 	}
-
 }

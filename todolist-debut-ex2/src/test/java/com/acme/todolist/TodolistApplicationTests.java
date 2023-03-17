@@ -12,6 +12,7 @@ class TodolistApplicationTests {
 	void contextLoads() {
 
 	}
+
 	@Test
 	void test_finalContent_NotLate() {
 		Instant currentTime = Instant.now();
@@ -27,5 +28,4 @@ class TodolistApplicationTests {
 		String finalContent = todoItem.finalContent();
 		assert(finalContent.contains("[LATE!]"));
 	}
-
 }

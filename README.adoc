@@ -143,6 +143,8 @@ _Temps estimé : 20 mins_
 
 *Quels types de tests devra-t-on écrire pour les adapteurs ?* 
 
+Il faut faire des tests d'intégration, le principe est de tester un composant, donc tester le point d'entrée, si la sortie est bonne c'est que tout le code interne fonctionne correctement.
+
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
 
 [TIP]

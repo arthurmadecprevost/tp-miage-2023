@@ -11,5 +11,4 @@ public interface GetTodoItems {
 	 * @return tous les items
 	 */
 	List<TodoItem> getAllTodoItems();
-
 }

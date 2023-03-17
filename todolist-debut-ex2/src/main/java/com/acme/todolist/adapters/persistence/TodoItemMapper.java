@@ -14,5 +14,4 @@ public class TodoItemMapper {
 	public TodoItemJpaEntity mapToTodoItemJpaEntity(TodoItem todoItem) {
 		return new TodoItemJpaEntity(todoItem.getId(), todoItem.getTime(), todoItem.getContent(),true);
 	}
-
 }

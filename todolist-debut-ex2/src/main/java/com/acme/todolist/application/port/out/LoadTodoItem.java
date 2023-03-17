@@ -13,5 +13,4 @@ public interface LoadTodoItem {
 	
 	/* Récupére tous les TodoItem */
 	List<TodoItem> loadAllTodoItems();
-
 }
