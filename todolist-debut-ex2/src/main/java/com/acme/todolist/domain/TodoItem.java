@@ -56,7 +56,7 @@ public class TodoItem {
 	/**
 	 * RG 1 : si l'item a plus de 24h, ajouter dans le contenu une note "[LATE!]"
 	 * 
-	 * @return liste des items
+	 * @return String du content de l'item
 	 */
 	public String finalContent() {
 		return isLate() ? LATE + this.content : this.content;
