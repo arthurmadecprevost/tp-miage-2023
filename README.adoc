@@ -117,6 +117,16 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
 
+L'architecture hexagonale est un modèle d'architecture logicielle qui vise à séparer la logique métier de l'infrastructure technique. Les grands principes de l'architecture hexagonale sont les suivants :
+
+    - Le noyau (ou le domaine) représente la logique métier de l'application, qui est indépendante de la technologie utilisée pour la mise en œuvre.
+    - Les adaptateurs représentent les interfaces entre le noyau et le monde extérieur, tels que les interfaces utilisateur, les services Web, les bases de données, etc.
+    - Les ports sont des points d'entrée et de sortie pour les données et les événements qui circulent entre le noyau et les adaptateurs.
+    - L'architecture hexagonale favorise l'usage d'interfaces plutôt que d'implémentations, ce qui facilite la réutilisation du code et la testabilité.
+    - Elle promeut également l'utilisation de l'inversion de contrôle (IoC) et de la dépendance d'injection (DI) pour rendre l'application plus modulaire et facile à étendre.
+
+En somme, l'architecture hexagonale permet de créer des applications évolutives, modulaires et testables en séparant la logique métier de l'infrastructure technique.
+
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 
 * prend un `TodoItem` au format JSON dans le body (voir exemple de contenu plus haut);
