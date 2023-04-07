@@ -1,6 +1,6 @@
 # TP MIAGE conception logicielle
 
-## Nom du(des) étudiant(e)(s) de ce monôme/binôme 
+## LARTIGUE / MADEC-PRÉVOST
 WARNING: NE PAS OUBLIER DE MENTIONNER LES DEUX NOMS SI VOUS ETES EN BINOME!
 
 #LARTIGUE MADEC-PRÉVOST#
